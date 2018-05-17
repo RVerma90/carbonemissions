@@ -11,7 +11,7 @@ class Earth extends Component {
         <Animated animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
             <h1 className="title">Earth</h1>
         </Animated>
-        <Animated animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
+        <Animated animationIn="zoomIn" animationOut="fadeOut" isVisible={true}>
             <img src={logo} className="earthImage" alt="logo" />
         </Animated>
       </div>
