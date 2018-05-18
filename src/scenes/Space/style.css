@@ -1,0 +1,39 @@
+.Space {
+    text-align: center;
+    background: radial-gradient(ellipse at center, #1C2837 100%, #050608 50%);
+    color: #000;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;    
+}
+
+.text {
+    font-size: 1.2em;
+    font-family: 'Open Sans';
+    width: 250px;
+    color: #ffffff;
+}
+
+.subtitle {
+  font-size: 1.0em;
+  font-family: 'Yatra One', cursive;
+}
+
+.spaceImage {
+  height: 25vh;
+  vertical-align: -webkit-baseline-middle;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: 10000;
+}
+
+
+:local(.scroll) {
+  bottom: 5em;
+  left: 50%;
+  transform: translateX(-50%);
+  color: $plum;
+  font-weight: 500;
+}

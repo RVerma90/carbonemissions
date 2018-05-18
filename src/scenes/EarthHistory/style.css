@@ -7,10 +7,13 @@
 	font: normal 1em/1.45em "Helvetica Neue", Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	color: #fff;
-	background: radial-gradient(ellipse at center, #1C2837 100%, #050608 50%);
+	background: radial-gradient(ellipse at center, #1c2837 100%, #050608 50%);
 	background-attachment: fixed;
 }
 
+.solarSystemContainer {
+	height: 20px;
+}
 /*
 
   Solar System orbit animation true time scaled
