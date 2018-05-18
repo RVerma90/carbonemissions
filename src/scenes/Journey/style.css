@@ -1,6 +1,6 @@
-.Earth {
+.Journey {
     text-align: center;
-    background-color: #fff;
+    background: radial-gradient(ellipse at center, #1C2837 100%, #050608 50%);
     color: #000;
     display: flex;
     flex-flow: row wrap;
@@ -9,23 +9,20 @@
     height: 120vh;    
 }
 
-.title {
-    font-size: 3.0em;
-    font-family: 'Yatra One', cursive;
+.text {
+    font-size: 1.2em;
+    font-family: 'Open Sans';
+    width: 250px;
+    color: #ffffff;
 }
 
 .subtitle {
-  font-size: 1.6em;
-  font-family: 'Yatra One', cursive;
-}
-
-.text {
   font-size: 1.0em;
   font-family: 'Yatra One', cursive;
 }
 
-.earthImage {
-  height: 50vh;
+.journeyImage {
+  height: 25vh;
   vertical-align: -webkit-baseline-middle;
   margin-top: auto;
   margin-bottom: auto;
