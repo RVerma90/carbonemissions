@@ -1,11 +1,14 @@
 .Earth {
     text-align: center;
     background-color: #fff;
-    height: 100vh;
-    padding: 20px;
     color: #000;
-  }
-  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;    
+}
+
 .title {
     font-size: 3.0em;
     font-family: 'Yatra One', cursive;
@@ -16,9 +19,19 @@
   vertical-align: -webkit-baseline-middle;
   margin-top: auto;
   margin-bottom: auto;
+  z-index: 10000;
 }
-  
-.description {
-  font-size: 1.2em;
-  font-family: 'Open Sans';
+
+.sunShine {
+  height: 20vh;
+  position: relative;
+  top: 35vh;
+}
+
+:local(.scroll) {
+  bottom: 5em;
+  left: 50%;
+  transform: translateX(-50%);
+  color: $plum;
+  font-weight: 500;
 }
