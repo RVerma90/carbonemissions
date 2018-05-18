@@ -5,38 +5,23 @@ import './style.css';
 
 import {Animated} from "react-animated-css";
 import { Parallax } from 'react-scroll-parallax';
-import { ParallaxBanner } from 'react-scroll-parallax';
 
-const ParallaxImage = () => (
-    <Parallax
-        className="custom-class"
-        offsetYMax={20}
-        offsetYMin={-20}
-        slowerScrollRate
-        tag="figure"
-    >
-    <earth></earth>
-    </Parallax>
-);
+import SolarSystem from '../../components/SolarSystem';
 
 
 class EarthHistory extends Component {
     render() {
-    return (
-        <div className="root">
-            <div className="container">                                   
-                <Parallax
-                    offsetYMin={-50}
-                    offsetYMax={50}
-                    className="ring"
-                >
-                    <img src={logo} className="earthImage" alt="logo" />
-                </Parallax>
-            </div>            
-            <p className="scroll">Scroll</p>
-        </div>
-    );
-  }
+        return (
+            <div className="EarthHistory">
+                <Animated animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
+                    <Parallax>
+                        <SolarSystem>
+                        </SolarSystem>
+                    </Parallax>
+                </Animated>                   
+            </div>
+        );
+    }
 }
 
 export default EarthHistory;
