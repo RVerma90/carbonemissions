@@ -1,13 +1,12 @@
 .Intelligence {
     text-align: center;
-    background-color: #3dadcc;
-    background: linear-gradient(#3dadcc, #0a3d91);
+    background: linear-gradient(#0a3d91, #1C2837);
     color: #000;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    height: 120vh;    
+    height: 180vh;    
 }
 
 .text {

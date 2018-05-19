@@ -1,0 +1,242 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+  .Sub {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+  .sea {
+    height:400px;
+    width:400px;
+    margin: 40px auto 0 auto;
+    overflow: hidden;
+    
+  }
+  .sea .bubble {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #6bafca;
+    opacity: 0.9;
+    animation: bubble1-v-movement 2s ease-in-out infinite, bubble1-h-movement 2000ms ease-in-out infinite alternate, bubble-scale-movement 700ms ease-in-out infinite alternate;
+  }
+  .sea .bubble:after {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #6bafca;
+    opacity: 0.9;
+  }
+  .sea .bubble:after {
+    top: -20;
+    left: 100px;
+    width: 9px;
+    height: 9px;
+  }
+  .sea .submarine-wrapper {
+    height: 300px;
+    width: 300px;
+    padding: 30px 50px 30px 150px;
+    margin: 0 auto 0 auto;
+    animation: diving 3s ease-in-out infinite, diving-rotate 3s ease-in-out infinite;
+  }
+  .sea .submarine-wrapper .submarine-body {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    margin-top: 50px;
+    left: 35px;
+    border-radius: 60px;
+    background: linear-gradient(#a8b1dd, #4d5370);
+  }
+  .sea .submarine-wrapper .submarine-body .light {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 40px 150px 40px;
+    border-color: transparent transparent #377c98 transparent;
+    transform: rotate(-50deg);
+    top: 40px;
+    left: 99%;
+  }
+  .sea .submarine-wrapper .submarine-body .light:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 13px;
+    border-radius: 5px;
+    margin-left: -10px;
+  }
+  .sea .submarine-body .window {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-top: 48px;
+    right: 30px;
+    background: linear-gradient(#1e4554, #183642);
+    border-radius: 50%;
+    border: 3px solid #545c84;
+  }
+  .sea .submarine-body .window:after {
+    content: "";
+    position: absolute;
+    right: 5px;
+    margin-top: 4px;
+    margin-left: 3px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    opacity: 0.5;
+    border-top: 1px solid white;
+    transform: rotate(-45deg);
+  }
+  .sea .submarine-wrapper .hat {
+    width: 65px;
+    height: 25px;
+    position: absolute;
+    margin-top: 26px;
+    top: 39px;
+    left: 64px;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient(#a8b1dd, #5c6285);
+  }
+  .sea .submarine-wrapper .hat .periscope {
+    position: absolute;
+    width: 7px;
+    height: 20px;
+    background-color: #62698e;
+    margin-top: -27px;
+    margin-left: 32px;
+    border-radius: 5px 5px 0 0;
+  }
+  .sea .submarine-wrapper .hat .periscope:after, .sea .submarine-wrapper .hat .periscope:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 7px;
+    border-radius: 5px;
+    background-color: #62698e;
+  }
+  .sea .submarine-wrapper .hat .leds-wrapper {
+    width: 53px;
+    height: 13px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    background-color: #a8b1dd;
+    border-radius: 10px;
+    background: linear-gradient(#434861, #7c8acc);
+  }
+  .sea .submarine-wrapper .hat .leds-wrapper .leds {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 7px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+    animation: leds-off 2500ms linear infinite;
+  }
+  .sea .submarine-wrapper .hat .leds-wrapper .leds:after, .sea .submarine-wrapper .hat .leds-wrapper .leds:before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .sea .submarine-wrapper .hat .leds-wrapper .leds:after {
+    margin-top: 0px;
+    margin-left: 17px;
+  }
+  .sea .submarine-wrapper .hat .leds-wrapper .leds:before {
+    margin-top: 0px;
+    margin-left: 34px;
+  }
+  @keyframes diving {
+    0% {
+      margin-top: 5px;
+    }
+    50% {
+      margin-top: 15px;
+    }
+    100% {
+      margin-top: 5px;
+    }
+  }
+  @keyframes diving-rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(3deg);
+    }
+    75% {
+      transform: rotate(-2deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes bubble1-v-movement {
+    0% {
+      margin-top: 40px;
+    }
+    100% {
+      margin-top: -200px;
+    }
+  }
+  @keyframes bubble2-v-movement {
+    0% {
+      margin-top: 65%;
+    }
+    100% {
+      margin-top: 5%;
+    }
+  }
+  @keyframes bubble1-h-movement {
+    0% {
+      margin-left: -10px;
+    }
+    100% {
+      margin-left: 10px;
+    }
+  }
+  @keyframes bubble2-h-movement {
+    0% {
+      margin-left: 10px;
+    }
+    100% {
+      margin-left: 90px;
+    }
+  }
+  @keyframes bubble-scale-movement {
+    0% {
+      transform: scale(1.4);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
+  @keyframes light-movement {
+    0% {
+      transform: rotate(-40deg);
+    }
+    50% {
+      transform: rotate(-70deg);
+    }
+    100% {
+      transform: rotate(-40deg);
+    }
+  }
+  

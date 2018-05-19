@@ -14,7 +14,7 @@ class Main extends Component {
             <div className="Main">
                 <Parallax
                     offsetYMin={100}
-                    offsetYMax={-150}
+                    offsetYMax={150}
                 >
                     <h1 className="title">Buddhi</h1>
                     <h2 className="subtitle">Wisdom</h2>

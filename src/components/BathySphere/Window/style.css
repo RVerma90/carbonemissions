@@ -1,0 +1,24 @@
+.window2 {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    right: 28px;
+    bottom: 28px;
+    background: linear-gradient(#1e4554, #183642);
+    border-radius: 50%;
+    border: 3px solid #545c84;
+  }
+  .window2:after {
+    content: "";
+    margin: auto;
+    margin-top: 5px;
+    margin-left: -23px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: linear-gradient(#1e4554, #183642);
+    opacity: 0.5;
+    border-top: 3px solid white;
+    transform: rotate(-45deg);
+  }
+  
