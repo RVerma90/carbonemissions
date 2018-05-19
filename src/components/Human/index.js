@@ -17,10 +17,6 @@ class Human extends Component {
                     <div class="left side"></div>
                     <div class="right side"></div>
                     </div>
-                    <div class="legs">
-                    <div class="leg left"></div>
-                    <div class="leg right"></div>
-                    </div>
                 </div>
             </div>
         );
