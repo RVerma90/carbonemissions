@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import earth from '../images/earth.svg';
 import sun from '../images/sun.png';
+
 import './style.css';
 
 import {Animated} from "react-animated-css";
 import { Parallax } from 'react-scroll-parallax';
 
-class Earth extends Component {
+class Hero extends Component {
     render() {
         return (
-            <div className="Earth">
+            <div className="Hero">
                 <Animated animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
                     <Parallax
                         offsetYMin={500}
@@ -42,4 +43,4 @@ class Earth extends Component {
   }
 }
 
-export default Earth;
+export default Hero;

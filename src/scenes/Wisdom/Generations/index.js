@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-import earth from '../images/earth.svg';
-import sun from '../images/sun.png';
 import './style.css';
 
-import {Animated} from "react-animated-css";
 import { Parallax } from 'react-scroll-parallax';
 
-class Space extends Component {
+class Generations extends Component {
     render() {
         return (
-            <div className="Space">
+            <div className="Generations">
                 
                 <div>
                     <Parallax
@@ -40,4 +37,4 @@ class Space extends Component {
   }
 }
 
-export default Space;
+export default Generations;

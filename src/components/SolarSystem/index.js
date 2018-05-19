@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
 
-import {Animated} from "react-animated-css";
-
-
 class EarthHistory extends Component {
     render() {
         return (

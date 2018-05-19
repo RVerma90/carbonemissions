@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
-import earth from '../images/earth.svg';
-import sun from '../images/sun.png';
 import './style.css';
 
-import {Animated} from "react-animated-css";
 import { Parallax } from 'react-scroll-parallax';
 
-import Dude from '../../components/Human';
-import Ray from '../../components/Ray';
-import Circle from '../../components/Circle';
+import Dude from '../../../components/Human';
+import Ray from '../../../components/Ray';
+import Circle from '../../../components/Circle';
 
 
-class Human extends Component {
+class Main extends Component {
     render() {
         return (
-            <div className="Humans">
+            <div className="Main">
                 <Parallax
                     offsetYMin={100}
                     offsetYMax={-150}
@@ -45,4 +42,4 @@ class Human extends Component {
   }
 }
 
-export default Human;
+export default Main;

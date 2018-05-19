@@ -1,7 +1,7 @@
 .Circle {
     width: 400px;
     height: 400px;
-    background-color: #141f30;
+    background: radial-gradient(ellipse at center, #ffd000 1%, #f9b700 39%, #f9b700 39%, #e06317 100%);
     overflow: hidden;
     border-radius: 1000px;
     margin: auto;
