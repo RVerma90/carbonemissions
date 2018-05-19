@@ -12,12 +12,12 @@ class Earth extends Component {
             <div className="Earth">
                 <Animated animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
                     <Parallax
-                        offsetYMin={500}
+                        offsetYMin={100}
                         offsetYMax={-150}
                         className="ring"
                     >
-                        <h1 className="title">Yatra</h1>
-                        <h2 className="subtitle">Journey</h2>
+                        <h1 className="title">Buddhi</h1>
+                        <h2 className="subtitle">Wisdom</h2>
                         <h2 className="text">Our story began here</h2>
                     </Parallax>   
                 </Animated>

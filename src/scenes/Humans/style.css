@@ -1,6 +1,6 @@
-.Space {
+.Humans {
     text-align: center;
-    background: radial-gradient(ellipse at center, #1C2837 100%, #050608 50%);
+    background: linear-gradient(#1C2837, #fff);
     color: #000;
     display: flex;
     flex-flow: row wrap;

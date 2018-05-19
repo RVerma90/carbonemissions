@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import earth from '../images/earth.svg';
-import sun from '../images/milkyway.png';
+import sun from '../images/sun.png';
 import './style.css';
 
 import {Animated} from "react-animated-css";
@@ -10,25 +10,31 @@ class Space extends Component {
     render() {
         return (
             <div className="Space">
+                
+                <div>
                     <Parallax
-                        offsetYMin={-800}
-                        offsetYMax={-100}
-                    >
-                        <p className="text">Our story began here ~200000 years ago</p>
-                    </Parallax>   
-                    <Parallax
-                        offsetYMin={0}
+                        offsetYMin={-250}
                         offsetYMax={0}
-                        className="circle"
                     >
-                    <img src={earth} className="spaceImage" alt="logo" />
-                    </Parallax>                        
+                        <p className="text">Earth, along with the solar system formed ~4.5billion years ago</p>
+                    </Parallax>  
                     <Parallax
-                        offsetYMin={1000}
-                        offsetYMax={100}
+                        offsetYMin={100}
+                        offsetYMax={50}
+                        offsetXMin={-25}
+                        offsetXMax={100}                        
                     >
-                        <p className="text">but our Planet Earth has been around for much longer.</p>
-                    </Parallax>                       
+                        <div className="sunBig"></div>
+                        <div className="earthBig"></div>
+                    </Parallax>                     
+                    <Parallax
+                        offsetYMin={-150}
+                        offsetYMax={500}
+                    >
+                        <p className="text">Eventually live began on Earth and started harvesting all kinds of energy to survive</p>
+                    </Parallax> 
+                </div>                                           
+                
             </div>
         );
   }

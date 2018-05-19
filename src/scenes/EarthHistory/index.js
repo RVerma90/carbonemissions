@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import earth from '../images/earth.svg';
 import logo from '../images/milkyway.png';
-import './style.css';
 
 import {Animated} from "react-animated-css";
 import { Parallax } from 'react-scroll-parallax';
