@@ -3,6 +3,8 @@ import './App.css';
 import Earth from './scenes/Earth';
 import Journey from './scenes/Journey';
 import EarthHistory from './scenes/EarthHistory';
+import Space from './scenes/Space';
+import Humans from './scenes/Humans';
 
 import { Parallax } from 'react-scroll-parallax';
 
@@ -13,6 +15,9 @@ class App extends Component {
         <Earth></Earth>
         <Journey></Journey>
         <EarthHistory></EarthHistory>
+        <Space></Space>
+        <Humans></Humans>
+
       </div>
     );
   }
