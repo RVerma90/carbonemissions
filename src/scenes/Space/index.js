@@ -24,14 +24,14 @@ class Space extends Component {
                         offsetXMin={-25}
                         offsetXMax={100}                        
                     >
-                        <div className="sunBig"></div>
-                        <div className="earthBig"></div>
+                        <div className="sunZoomIn"></div>
+                        <div className="earthZoomIn"></div>
                     </Parallax>                     
                     <Parallax
                         offsetYMin={-150}
                         offsetYMax={500}
                     >
-                        <p className="text">Eventually live began on Earth and started harvesting all kinds of energy to survive</p>
+                        <p className="text">Eventually life began on Earth and started harvesting all kinds of energy to survive</p>
                     </Parallax> 
                 </div>                                           
                 

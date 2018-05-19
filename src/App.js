@@ -5,6 +5,7 @@ import Journey from './scenes/Journey';
 import EarthHistory from './scenes/EarthHistory';
 import Space from './scenes/Space';
 import Humans from './scenes/Humans';
+import GlobalWarming from './scenes/GlobalWarming';
 
 import { Parallax } from 'react-scroll-parallax';
 
@@ -17,7 +18,7 @@ class App extends Component {
         <EarthHistory></EarthHistory>
         <Space></Space>
         <Humans></Humans>
-
+        <GlobalWarming></GlobalWarming>
       </div>
     );
   }
