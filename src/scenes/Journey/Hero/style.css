@@ -1,13 +1,12 @@
 .Hero {
     text-align: center;
-    background-color: #fff;
+    background-color: #ffffff;
     color: #000;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     height: 120vh;
-    overflow-x:hidden;
 }
 
 .title {

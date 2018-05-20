@@ -1,6 +1,6 @@
 .Main {
     text-align: center;
-    background-color: #fff;
+    background: linear-gradient(to top, #168fe5,#ffffff 25%);
     color: #000;
     align-items: center;
     justify-content: center;

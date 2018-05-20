@@ -1,6 +1,6 @@
 .Intelligence {
     text-align: center;
-    background: linear-gradient(#0a3d91, #1C2837);
+    background: linear-gradient(#168fe5, #1C2837);
     color: #000;
     display: flex;
     flex-flow: row wrap;
@@ -26,7 +26,6 @@
   vertical-align: -webkit-baseline-middle;
   margin-top: auto;
   margin-bottom: auto;
-  overflow-x: hidden;
 }
 
 .sunShine {

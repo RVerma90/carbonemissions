@@ -12,8 +12,8 @@ class Intelligence extends Component {
         return (
             <div className="Intelligence">
                     <Parallax
-                        offsetYMin={-800}
-                        offsetYMax={-100}
+                        offsetYMin="600px"
+                        offsetYMax="400px"
                     >
                         <p className="text">We have a few intelligent represenatives on our planet,</p>
                     </Parallax>   

@@ -13,6 +13,7 @@ class Human extends Component {
                     <div class="top"></div>
                     <div class="left side"></div>
                     <div class="right side"></div>
+                    <div class="bottom"></div>
                     </div>
                 </div>
             </div>

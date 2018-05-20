@@ -1,75 +1,84 @@
 .humanBG {
-    width: 400px;
-    height: 400px;
-    border-radius: 1000px;   
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;   
     margin: auto; 
-  } 
+} 
   
-  .hat {
-    margin: 10% auto -18px;
-  }
+.hat {
+  margin: 10% auto -18px;
+}
+
+.head {
+  width: 100px;
+  height: 100px;
+  background-color: #2d3e59;
+  border-radius: 50%;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+  top:64px;
+}
+
+.head:after {
+  content: "";
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  margin-left: -15px;
+  width: 30px;
+  height: 40px;
+  background-color: #2d3e59;
+}
+
+.human .body {
+  height: 170px;
+  width: 100px;
+  background-color: #2d3e59;
+  margin: 30px auto 0;
+  position: relative;
+  top: 60px;
+  z-index: 2;
+}
   
-  .head {
-    width: 100px;
-    height: 100px;
-    background-color: #2d3e59;
-    border-radius: 50%;
-    margin: 0 auto;
-    z-index: 2;
-    position: relative;
-    top:64px;
-  }
-  
-  .head:after {
-    content: "";
-    position: absolute;
-    top: 90px;
-    left: 50%;
-    margin-left: -15px;
-    width: 30px;
-    height: 40px;
-    background-color: #2d3e59;
-  }
-  
-  .human .body {
-    height: 170px;
-    width: 100px;
-    background-color: #2d3e59;
-    margin: 30px auto 0;
-    position: relative;
-    top: 60px;
-    z-index: 2;
-  }
-   
-  .body .top {
-    position: absolute;
-    height: 80px;
-    width: 120%;
-    top: -20px;
-    left: -10%;
-    background-color: #2d3e59;
-    border-radius: 50%;
-  }
-  
-  .body .side {
-    position: absolute;
-    top: 0px;
-  }
-  
-  .body .left {
-    height: 150px;
-    width: 50%;
-    background-color: #2d3e59;
-    left: -21px;
-    border-radius: 50%;
-  }
-  
-  .body .right {
-    height: 150px;
-    width: 50%;
-    background-color: #2d3e59;
-    border-radius: 50%;
-    right: -21px;
-  }
-  
-  
+.body .top {
+  position: absolute;
+  height: 80px;
+  width: 120%;
+  top: -20px;
+  left: -10%;
+  background-color: #2d3e59;
+  border-radius: 50%;
+}
+
+.body .bottom {
+  position: absolute;
+  height: 80px;
+  width: 110%;
+  top: 115px;
+  left: -5%;
+  background-color: #2d3e59;
+  border-radius: 50%;
+}
+
+.body .side {
+  position: absolute;
+  top: 0px;
+}
+
+.body .left {
+  height: 150px;
+  width: 50%;
+  background-color: #2d3e59;
+  left: -21px;
+  border-radius: 50%;
+}
+
+.body .right {
+  height: 150px;
+  width: 50%;
+  background-color: #2d3e59;
+  border-radius: 50%;
+  right: -21px;
+}
+
