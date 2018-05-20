@@ -9,21 +9,20 @@ class Earth extends Component {
         return (
             <div className="Earth">
                     <Parallax
-                        offsetYMin={-800}
-                        offsetYMax={-100}
+                        offsetYMin="-200px"
+                        offsetYMax="10px"
                     >
                         <p className="text">Our story began here ~200000 years ago</p>
                     </Parallax>   
                     <Parallax
-                        offsetYMin={0}
-                        offsetYMax={0}
-                        className="circle"
+                        offsetYMin="0px"
+                        offsetYMax="0px"
                     >
                     <img src={earth} className="journeyImage" alt="logo" />
                     </Parallax>                        
                     <Parallax
-                        offsetYMin={1000}
-                        offsetYMax={100}
+                        offsetYMin="-150px"
+                        offsetYMax="150px"
                     >
                         <p className="text">but our Planet Earth has been around for much longer.</p>
                     </Parallax>                       

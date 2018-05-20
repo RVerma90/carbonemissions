@@ -25,8 +25,8 @@ class SunEarth extends Component {
                         <div className="earthZoomIn"></div>
                     </Parallax>                     
                     <Parallax
-                        offsetYMin={-150}
-                        offsetYMax={500}
+                        offsetYMin={100}
+                        offsetYMax={400}
                     >
                         <p className="text">Eventually life began on Earth and started harvesting all kinds of energy to survive</p>
                     </Parallax> 
