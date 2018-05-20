@@ -11,36 +11,42 @@ class Intelligence extends Component {
     render() {
         return (
             <div className="Intelligence">
+                <div>
                     <Parallax
-                        offsetYMin="600px"
-                        offsetYMax="400px"
+                        offsetYMin="50px"
+                        offsetYMax="-50px"
                     >
                         <p className="text">We have a few intelligent represenatives on our planet,</p>
                     </Parallax>   
                     <Parallax
-                        offsetXMin={-30}
-                        offsetXMax={-20}
+                        offsetXMin="-150px"
+                        offsetXMax="50px"
+                        offsetYMin="150px"
+                        offsetYMax="-50px"
                     >
                     <img src={Whale} className="species" alt="logo" />
                     </Parallax>                        
                     <Parallax
-                        offsetXMin={75}
-                        offsetXMax={-75}
+                        offsetXMin="200px"
+                        offsetXMax="-350px"
+                        offsetYMin="50px"
+                        offsetYMax="150px"                        
                     >
                     <img src={Dolphine} className="species" alt="logo" />
                     </Parallax>                                            
                     <Parallax
-                        offsetYMin={1000}
-                        offsetYMax={100}
+                        offsetYMin="400px"
+                        offsetYMax="200px"
                     >
                         <p className="text">but none have proven to be as adventerous or curious as humans.</p>
                     </Parallax>  
 `                    <Parallax
-                        offsetYMin={100}
-                        offsetYMax={-100}
+                        offsetYMin="200px"
+                        offsetYMax="500px"
                     >
                         <BathySphere></BathySphere>
-                    </Parallax>    `                                       
+                    </Parallax>   
+                </div> `                                       
             </div>
         );
   }

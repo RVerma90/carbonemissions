@@ -13,14 +13,6 @@ class Generations extends Component {
                 <Parallax
                     offsetXMin={0}
                     offsetXMax={0}
-                    offsetYMin={400}
-                    offsetYMax={-650}                    
-                >
-                    <Moon></Moon>
-                </Parallax>  
-                <Parallax
-                    offsetXMin={0}
-                    offsetXMax={0}
                     offsetYMin={0}
                     offsetYMax={0}                    
                 >
