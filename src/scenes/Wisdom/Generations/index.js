@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './style.css';
 import { Parallax } from 'react-scroll-parallax';
 
+import Rocket from '../../../components/Rocket';
 import Ray from '../../../components/Ray';
 import Moon from '../../../components/Moon';
 
@@ -11,13 +12,19 @@ class Generations extends Component {
         return (
             <div class="SunInSky">                                           
                 <Parallax
-                    offsetXMin={0}
-                    offsetXMax={0}
-                    offsetYMin={0}
-                    offsetYMax={0}                    
+                    offsetYMin="-1000px"
+                    offsetYMax="0px" 
                 >
-                    <Moon></Moon>
+                <Rocket></Rocket>
                 </Parallax>                                 
+                <Parallax
+                    offsetXMin="50px"
+                    offsetXMax="-100px"
+                    offsetYMin="100px"
+                    offsetYMax="400px"                    
+                >
+                <Moon></Moon>
+                </Parallax>                                                 
             </div>
         );
   }
