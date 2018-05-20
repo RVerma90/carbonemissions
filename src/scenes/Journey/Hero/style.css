@@ -6,36 +6,40 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    height: 120vh;    
+    height: 120vh;
+    overflow-x:hidden;
 }
 
 .title {
     font-size: 3.0em;
     font-family: 'Yatra One', cursive;
+    z-index: 50;
 }
 
 .subtitle {
   font-size: 1.6em;
   font-family: 'Yatra One', cursive;
+  z-index: 50;
 }
 
 .text {
   font-size: 1.0em;
   font-family: 'Yatra One', cursive;
+  z-index: 50;
 }
 
 .earthImage {
   height: 50vh;
-  vertical-align: -webkit-baseline-middle;
   margin-top: auto;
   margin-bottom: auto;
-  z-index: 10000;
+  z-index: 100;
 }
 
 .sunShine {
   height: 20vh;
-  position: relative;
-  top: 35vh;
+  margin-top: auto;
+  margin-bottom: auto;  
+  z-index: 50;
 }
 
 :local(.scroll) {

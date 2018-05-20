@@ -13,30 +13,18 @@ class Hero extends Component {
             <div className="Hero">
                 <Animated animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
                     <Parallax
-                        offsetYMin={500}
-                        offsetYMax={-150}
-                        className="ring"
+                        offsetYMin="-400px"
+                        offsetYMax="100px"
                     >
                         <h1 className="title">Yatra</h1>
                         <h2 className="subtitle">Journey</h2>
-                        <h2 className="text">Our story began here</h2>
-                    </Parallax>   
-                </Animated>
-                <Animated animationIn="fadeIn" isVisible={true}>
+                    </Parallax> 
                     <Parallax
-                        offsetYMin={-150}
-                        offsetYMax={150}
-                        className="circle"
+                        offsetYMin="400px"
+                        offsetYMax="0px"
                     >
-                    <img src={sun} className="sunShine" alt="logo" />    
-                    </Parallax>  
-                    <Parallax
-                        offsetYMin={40}
-                        offsetYMax={-20}
-                        className="circle"
-                    >
-                    <img src={earth} className="earthImage" alt="logo" />
-                    </Parallax>              
+                        <img src={earth} className="earthImage" alt="logo" />
+                    </Parallax>                                                    
                 </Animated>    
             </div>
         );

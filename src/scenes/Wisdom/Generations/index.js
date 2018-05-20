@@ -9,19 +9,23 @@ import Moon from '../../../components/Moon';
 class Generations extends Component {
     render() {
         return (
-            <div class="SunInSky">
+            <div class="SunInSky">                                           
                 <Parallax
-                    offsetYMin={-400}
-                    offsetYMax={-75}                    
-                >
-                    <Ray></Ray>
-                </Parallax>                                            
-                <Parallax
+                    offsetXMin={0}
+                    offsetXMax={0}
                     offsetYMin={400}
-                    offsetYMax={-650}
+                    offsetYMax={-650}                    
                 >
                     <Moon></Moon>
-                </Parallax>                 
+                </Parallax>  
+                <Parallax
+                    offsetXMin={0}
+                    offsetXMax={0}
+                    offsetYMin={0}
+                    offsetYMax={0}                    
+                >
+                    <Moon></Moon>
+                </Parallax>                                 
             </div>
         );
   }
