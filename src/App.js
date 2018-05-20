@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Journey from './scenes/Journey';
 import Wisdom from './scenes/Wisdom';
+import Burden from './scenes/Burden';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <div className="App">
         <Journey></Journey>
         <Wisdom></Wisdom>
+        <Burden></Burden>
       </div>
     );
   }

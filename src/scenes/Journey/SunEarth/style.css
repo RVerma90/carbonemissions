@@ -6,7 +6,8 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    height: 120vh;    
+    height: 120vh;
+    overflow-x: hidden; 
 }
 
 .text {

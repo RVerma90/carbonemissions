@@ -26,6 +26,7 @@
   vertical-align: -webkit-baseline-middle;
   margin-top: auto;
   margin-bottom: auto;
+  overflow-x: hidden;
 }
 
 .sunShine {

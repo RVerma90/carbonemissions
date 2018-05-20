@@ -20,14 +20,12 @@ class Intelligence extends Component {
                     <Parallax
                         offsetXMin={-30}
                         offsetXMax={-20}
-                        className="circle"
                     >
                     <img src={Whale} className="species" alt="logo" />
                     </Parallax>                        
                     <Parallax
                         offsetXMin={75}
                         offsetXMax={-75}
-                        className="circle"
                     >
                     <img src={Dolphine} className="species" alt="logo" />
                     </Parallax>                                            
@@ -35,14 +33,14 @@ class Intelligence extends Component {
                         offsetYMin={1000}
                         offsetYMax={100}
                     >
-                        <p className="text">but none have proven to be as curious and.</p>
+                        <p className="text">but none have proven to be as adventerous or curious as humans.</p>
                     </Parallax>  
-                    <Parallax
+`                    <Parallax
                         offsetYMin={100}
                         offsetYMax={-100}
                     >
                         <BathySphere></BathySphere>
-                    </Parallax>                                           
+                    </Parallax>    `                                       
             </div>
         );
   }

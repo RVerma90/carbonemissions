@@ -13,8 +13,8 @@ class GlobalWarming extends Component {
                         offsetYMin={100}
                         offsetYMax={-150}
                     >
-                        <h1 className="title">Vinaash</h1>
-                        <h2 className="subtitle">Destruction</h2>
+                        <h1 className="title">Bojh</h1>
+                        <h2 className="subtitle">Burden</h2>
                     </Parallax>   
                 </Animated>
                 <Animated animationIn="fadeIn" isVisible={true}>
