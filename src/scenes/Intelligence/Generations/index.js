@@ -28,9 +28,9 @@ class Generations extends Component {
                 </Parallax>          
                 <Parallax
                     offsetYMin="600px"
-                    offsetYMax="300px"                    
+                    offsetYMax="200px"                    
                 >
-                    <p className="text">We built cities and infrastructures </p>
+                    <p className="text3">We built cities and infrastructures impacted the world in life changing ways.</p>
                 </Parallax>                                                              
                 <img src={City} className="city" alt="logo" />
                 </div>

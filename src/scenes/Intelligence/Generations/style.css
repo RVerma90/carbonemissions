@@ -34,6 +34,14 @@ color: #000;
     color: #ffffff;
 }
 
+.text3 {
+    font-size: 1.2em;
+    font-family: 'Open Sans';
+    width: 250px;
+    color: #000;
+}
+
+
 .city {
     position: absolute;
     right: 0%;
