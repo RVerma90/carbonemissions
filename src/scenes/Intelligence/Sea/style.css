@@ -1,44 +1,39 @@
-.Hero {
+.Sea {
     text-align: center;
-    background-color: #ffffff;
+    background: linear-gradient(#168fe5, #1C2837);
     color: #000;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    height: 120vh;
-}
-
-.title {
-    font-size: 3.0em;
-    font-family: 'Yatra One', cursive;
-    z-index: 50;
-}
-
-.subtitle {
-  font-size: 1.6em;
-  font-family: 'Yatra One', cursive;
-  z-index: 50;
+    height: 180vh;    
 }
 
 .text {
-  font-size: 1.0em;
-  font-family: 'Yatra One', cursive;
-  z-index: 50;
+    font-size: 1.2em;
+    font-family: 'Open Sans';
+    width: 250px;
+    color: #ffffff;
+    margin: 0 auto;
 }
 
-.earthImage {
-  height: 50vh;
+.subtitle {
+  font-size: 1.0em;
+  font-family: 'Yatra One', cursive;
+}
+
+.species {
+  height: 15vh;
+  vertical-align: -webkit-baseline-middle;
   margin-top: auto;
   margin-bottom: auto;
-  z-index: 100;
+  z-index: 50;
 }
 
 .sunShine {
   height: 20vh;
-  margin-top: auto;
-  margin-bottom: auto;  
-  z-index: 50;
+  position: relative;
+  top: 35vh;
 }
 
 :local(.scroll) {

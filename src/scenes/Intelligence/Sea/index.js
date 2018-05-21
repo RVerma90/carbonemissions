@@ -7,10 +7,10 @@ import './style.css';
 
 import { Parallax } from 'react-scroll-parallax';
 
-class Intelligence extends Component {
+class Sea extends Component {
     render() {
         return (
-            <div className="Intelligence">
+            <div className="Sea">
                 <div>
                     <Parallax
                         offsetYMin="50px"
@@ -40,16 +40,16 @@ class Intelligence extends Component {
                     >
                         <p className="text">but none have proven to be as adventerous or curious as humans.</p>
                     </Parallax>  
-`                    <Parallax
+                    <Parallax
                         offsetYMin="200px"
                         offsetYMax="500px"
                     >
                         <BathySphere></BathySphere>
                     </Parallax>   
-                </div> `                                       
+                </div>                                       
             </div>
         );
   }
 }
 
-export default Intelligence;
+export default Sea;

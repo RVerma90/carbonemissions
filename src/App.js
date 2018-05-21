@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Journey from './scenes/Journey';
-import Wisdom from './scenes/Wisdom';
+import Intelligence from './scenes/Intelligence';
 import Burden from './scenes/Burden';
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <Journey></Journey>
-        <Wisdom></Wisdom>
+        <Intelligence></Intelligence>
         <Burden></Burden>
       </div>
     );

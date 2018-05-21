@@ -10,13 +10,21 @@ class Wolf extends Component {
             <div className="Wolf">
                 <div>
                     <Parallax
+                        offsetYMin="-300"
+                        offsetYMax="-100"
+                        offsetXMin="0"
+                        offsetXMax="0"                        
+                    >
+                        <p className="text2">Eventually a chemical process was able to replicate itself and life began.</p>
+                    </Parallax>     
+                    <Parallax
                         offsetYMin="-50"
                         offsetYMax="300"
                         offsetXMin="0"
                         offsetXMax="0"                        
                     >
                         <div className="theMoon"></div>
-                    </Parallax>     
+                    </Parallax>                         
                     <img src={WolfHowl} className="theWolf" alt="logo" />
                 </div>                                           
             </div>

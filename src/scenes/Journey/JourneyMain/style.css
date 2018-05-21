@@ -1,39 +1,44 @@
-.Intelligence {
+.JourneyMain {
     text-align: center;
-    background: linear-gradient(#168fe5, #1C2837);
+    background-color: #ffffff;
     color: #000;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    height: 180vh;    
+    height: 120vh;
 }
 
-.text {
-    font-size: 1.2em;
-    font-family: 'Open Sans';
-    width: 250px;
-    color: #ffffff;
-    margin: 0 auto;
+.title {
+    font-size: 3.0em;
+    font-family: 'Yatra One', cursive;
+    z-index: 50;
 }
 
 .subtitle {
-  font-size: 1.0em;
+  font-size: 1.6em;
   font-family: 'Yatra One', cursive;
+  z-index: 50;
 }
 
-.species {
-  height: 15vh;
-  vertical-align: -webkit-baseline-middle;
+.text {
+  font-size: 1.0em;
+  font-family: 'Yatra One', cursive;
+  z-index: 50;
+}
+
+.earthImage {
+  height: 50vh;
   margin-top: auto;
   margin-bottom: auto;
-  z-index: 50;
+  z-index: 100;
 }
 
 .sunShine {
   height: 20vh;
-  position: relative;
-  top: 35vh;
+  margin-top: auto;
+  margin-bottom: auto;  
+  z-index: 50;
 }
 
 :local(.scroll) {

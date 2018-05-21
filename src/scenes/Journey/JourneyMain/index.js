@@ -6,10 +6,10 @@ import './style.css';
 import {Animated} from "react-animated-css";
 import { Parallax } from 'react-scroll-parallax';
 
-class Hero extends Component {
+class JourneyMain extends Component {
     render() {
         return (
-            <div className="Hero">
+            <div className="JourneyMain">
                 <Animated animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
                     <Parallax
                         offsetYMin="-400px"
@@ -30,4 +30,4 @@ class Hero extends Component {
   }
 }
 
-export default Hero;
+export default JourneyMain;

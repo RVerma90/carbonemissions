@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Hero from './Hero';
+import JourneyMain from './JourneyMain';
 import Earth from './Earth';
 import TheSolarSystem from './TheSolarSystem';
 import SunEarth from './SunEarth';
@@ -11,7 +11,7 @@ class Journey extends Component {
     render() {
         return (
             <div>
-                <Hero></Hero>
+                <JourneyMain></JourneyMain>
                 <Earth></Earth>
                 <TheSolarSystem></TheSolarSystem>
                 <SunEarth></SunEarth>
