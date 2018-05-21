@@ -25,7 +25,13 @@ class Generations extends Component {
                     offsetYMax="400px"                    
                 >
                     <Moon></Moon>
-                </Parallax>                                              
+                </Parallax>          
+                <Parallax
+                    offsetYMin="600px"
+                    offsetYMax="300px"                    
+                >
+                    <p className="text">We built cities and infrastructures </p>
+                </Parallax>                                                              
                 <img src={City} className="city" alt="logo" />
                 </div>
             </div>
