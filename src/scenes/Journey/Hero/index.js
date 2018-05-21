@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import earth from '../images/earth.svg';
-import sun from '../images/sun.png';
 
 import './style.css';
 

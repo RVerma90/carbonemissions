@@ -4,8 +4,8 @@ import './style.css';
 import { Parallax } from 'react-scroll-parallax';
 
 import Rocket from '../../../components/Rocket';
-import Ray from '../../../components/Ray';
 import Moon from '../../../components/Moon';
+import City from '../images/london.png';
 
 class Generations extends Component {
     render() {
@@ -24,7 +24,8 @@ class Generations extends Component {
                     offsetYMax="400px"                    
                 >
                 <Moon></Moon>
-                </Parallax>                                                 
+                </Parallax>                                              
+                <img src={City} className="city" alt="logo" />
             </div>
         );
   }

@@ -1,6 +1,23 @@
 .SunInSky {
     text-align: center;
-    background: radial-gradient(ellipse at center, #1C2837 100%, #050608 50%);
+
+
+background: -moz-linear-gradient(top, #1c2837 40%, #fffed3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #1c2837 40%,#fffed3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #1c2837 40%,#fffed3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+color: #000;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    height: 200vh;    
+    position: relative;
+}
+
+.SunInSky:hover {
+    text-align: center;
+    background-color: blue;
     color: #000;
     display: flex;
     flex-flow: row wrap;
@@ -9,9 +26,16 @@
     height: 200vh;    
 }
 
+
 .text {
     font-size: 1.2em;
     font-family: 'Open Sans';
     width: 250px;
     color: #ffffff;
+}
+
+.city {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
 }
