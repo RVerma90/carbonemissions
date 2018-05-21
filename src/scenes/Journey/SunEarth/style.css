@@ -9,11 +9,12 @@
     height: 120vh;
 }
 
-.text {
+.text2 {
     font-size: 1.2em;
     font-family: 'Open Sans';
     width: 250px;
     color: #ffffff;
+    padding-bottom: 10px;
 }
 
 .sunZoomIn {

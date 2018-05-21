@@ -12,7 +12,8 @@ class SunEarth extends Component {
                         offsetYMin="-250px"
                         offsetYMax="0px"
                     >
-                        <p className="text">Earth, along with the solar system formed ~4.5billion years ago</p>
+                        <p className="text2">Earth, along with the solar system formed ~4.5billion years ago.</p>
+                        <p className="text2">Eventually life began on Earth and started harvesting all kinds of energy to survive.</p>
                     </Parallax>  
                     <Parallax
                         offsetYMin="0px"
@@ -23,12 +24,6 @@ class SunEarth extends Component {
                         <div className="sunZoomIn"></div>
                         <div className="earthZoomIn"></div>
                     </Parallax>                     
-                    <Parallax
-                        offsetYMin="-300px"
-                        offsetYMax="-150px"
-                    >
-                        <p className="text">Eventually life began on Earth and started harvesting all kinds of energy to survive</p>
-                    </Parallax> 
                 </div>                                           
             </div>
         );

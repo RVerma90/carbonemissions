@@ -4,6 +4,7 @@ import Hero from './Hero';
 import Earth from './Earth';
 import TheSolarSystem from './TheSolarSystem';
 import SunEarth from './SunEarth';
+import Wolf from './Wolf';
 
 
 class Journey extends Component {
@@ -14,6 +15,7 @@ class Journey extends Component {
                 <Earth></Earth>
                 <TheSolarSystem></TheSolarSystem>
                 <SunEarth></SunEarth>
+                <Wolf></Wolf>
             </div>
         );
     }
