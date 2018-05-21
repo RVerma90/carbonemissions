@@ -6,7 +6,8 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    height: 180vh;    
+    height: 200vh;   
+    overflow-y: auto; 
 }
 
 .text {

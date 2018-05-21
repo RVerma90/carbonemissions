@@ -45,7 +45,13 @@ class Sea extends Component {
                         offsetYMax="500px"
                     >
                         <BathySphere></BathySphere>
-                    </Parallax>   
+                    </Parallax>  
+                    <Parallax
+                        offsetYMin="400px"
+                        offsetYMax="200px"
+                    >
+                        <p className="text">We conquered new depths and heights.</p>
+                    </Parallax>                       
                 </div>                                       
             </div>
         );

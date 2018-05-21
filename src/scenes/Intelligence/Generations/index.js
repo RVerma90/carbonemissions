@@ -10,22 +10,24 @@ import City from '../images/london.png';
 class Generations extends Component {
     render() {
         return (
-            <div class="SunInSky">                                           
+            <div class="SunInSky">
+                <div>
                 <Parallax
                     offsetYMin="-1000px"
                     offsetYMax="0px" 
                 >
-                <Rocket></Rocket>
-                </Parallax>                                 
+                    <Rocket></Rocket>
+                </Parallax>
                 <Parallax
                     offsetXMin="50px"
                     offsetXMax="-100px"
                     offsetYMin="100px"
                     offsetYMax="400px"                    
                 >
-                <Moon></Moon>
+                    <Moon></Moon>
                 </Parallax>                                              
                 <img src={City} className="city" alt="logo" />
+                </div>
             </div>
         );
   }

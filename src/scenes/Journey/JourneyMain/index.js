@@ -12,8 +12,8 @@ class JourneyMain extends Component {
             <div className="JourneyMain">
                 <Animated animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
                     <Parallax
-                        offsetYMin="-400px"
-                        offsetYMax="100px"
+                        offsetYMin="400px"
+                        offsetYMax="0px"
                     >
                         <h1 className="title">Yatra</h1>
                         <h2 className="subtitle">Journey</h2>
