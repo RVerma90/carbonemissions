@@ -2,3 +2,36 @@
   text-align: center;
   overflow-x: hidden;
 }
+
+.text {
+  font-size: 1.2em;
+  font-family: 'Open Sans';
+  width: 250px;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.textPaddingTop {
+    font-size: 1.2em;
+    font-family: 'Open Sans';
+    width: 250px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.textBlack {
+  font-size: 1.2em;
+  font-family: 'Open Sans';
+  width: 250px;
+  color: #000;
+  margin: 0 auto;
+}
+
+
+.textBlack2 {
+  font-size: 1.2em;
+  font-family: 'Open Sans';
+  width: 250px;
+  color: #000;
+  margin: 0;
+}

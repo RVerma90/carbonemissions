@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
 import BurdenMain from './BurdenMain';
+import Emissions from './Emissions';
+import Impact from './Impact';
+import Consumption from './Consumption';
 
 
 class Burden extends Component {
@@ -8,6 +11,9 @@ class Burden extends Component {
         return (
             <div>
                 <BurdenMain></BurdenMain>
+                <Emissions></Emissions>
+                <Impact></Impact>                
+                <Consumption></Consumption>
             </div>
         );
     }

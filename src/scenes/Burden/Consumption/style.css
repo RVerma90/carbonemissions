@@ -1,12 +1,14 @@
-.Earth {
+.Consumption {
     text-align: center;
-    background: radial-gradient(ellipse at center, #1C2837 100%, #050608 50%);
+    background: -moz-linear-gradient(top, #edffed 40%, #fffed3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #edffed 40%,#fffed3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #edffed 40%,#fffed3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     color: #000;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    height: 120vh;    
+    height: 200vh;   
 }
 
 .subtitle {
@@ -14,12 +16,12 @@
   font-family: 'Yatra One', cursive;
 }
 
-.journeyImage {
-  height: 25vh;
+.species {
+  height: 15vh;
   vertical-align: -webkit-baseline-middle;
   margin-top: auto;
   margin-bottom: auto;
-  z-index: 10000;
+  z-index: 50;
 }
 
 .sunShine {

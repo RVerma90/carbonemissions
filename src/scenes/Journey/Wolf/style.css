@@ -11,13 +11,6 @@
     position: relative;
 }
 
-.text {
-    font-size: 1.2em;
-    font-family: 'Open Sans';
-    width: 250px;
-    color: #ffffff;
-}
-
 .theMoon {
 	background-color: #ffffff;
   height: 200px;

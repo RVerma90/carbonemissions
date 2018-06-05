@@ -4,7 +4,7 @@ import './style.css';
 import {Animated} from "react-animated-css";
 import { Parallax } from 'react-scroll-parallax';
 
-import SeaRock from '../images/searock.png';
+import SeaRock from '../images/searock-m.png';
 import Coral1 from '../../../components/Corals/Coral1';
 import Coral2 from '../../../components/Corals/Coral2';
 import Coral3 from '../../../components/Corals/Coral3';

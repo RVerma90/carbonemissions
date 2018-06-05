@@ -1,12 +1,12 @@
-.Earth {
+.Emissions {
     text-align: center;
-    background: radial-gradient(ellipse at center, #1C2837 100%, #050608 50%);
+    background: linear-gradient(#fff, #edffed);
     color: #000;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    height: 120vh;    
+    height: 130vh;   
 }
 
 .subtitle {
@@ -14,12 +14,12 @@
   font-family: 'Yatra One', cursive;
 }
 
-.journeyImage {
-  height: 25vh;
+.species {
+  height: 15vh;
   vertical-align: -webkit-baseline-middle;
   margin-top: auto;
   margin-bottom: auto;
-  z-index: 10000;
+  z-index: 50;
 }
 
 .sunShine {

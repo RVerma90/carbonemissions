@@ -30,7 +30,7 @@ class Generations extends Component {
                     offsetYMin="600px"
                     offsetYMax="200px"                    
                 >
-                    <p className="text3">We built cities and infrastructures impacted the world in life changing ways.</p>
+                    <p className="textBlack">We built cities and infrastructures impacted the world in life changing ways.</p>
                 </Parallax>                                                              
                 <img src={City} className="city" alt="logo" />
                 </div>
