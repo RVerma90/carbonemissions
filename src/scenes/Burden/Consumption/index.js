@@ -32,7 +32,7 @@ class Consumption extends Component {
                     </Parallax>  
                     <Parallax
                         offsetYMin="120px"
-                        offsetYMax="450px"
+                        offsetYMax="350px"
                     >
                         <img src={Lightbulbs}/>
                     </Parallax>                      

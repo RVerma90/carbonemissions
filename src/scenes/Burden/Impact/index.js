@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import Whale from '../images/whale.png';
-import Dolphine from '../images/dolphine.png';
-import Impact1 from '../images/impact1.png';
-import Impact2 from '../images/impact2.png';
-import Impact3 from '../images/impact3.png';
-import Impact4 from '../images/impact4.png';
-import Impact5 from '../images/impact5.png';
-import Impact6 from '../images/impact6.png';
-import Impact7 from '../images/impact7.png';
-import Impact8 from '../images/impact8.png';
+import Impact1 from '../images/tornado.png';
+import Impact2 from '../images/heatwaves.png';
+import Impact3 from '../images/drought.png';
+import Impact4 from '../images/forestfire.png';
+import Impact5 from '../images/migration.png';
+import Impact6 from '../images/disease.png';
+import Impact7 from '../images/extinction.png';
 
 
 
@@ -43,13 +41,9 @@ class Impact extends Component {
                 <div className="impactItem">
                     <img src={Impact6} className="species" alt="logo" />
                     <p className="textBlack2">Diease</p>
-                </div>
+                </div>                                
                 <div className="impactItem">
                     <img src={Impact7} className="species" alt="logo" />
-                    <p className="textBlack2">Conflict</p>
-                </div>                                   
-                <div className="impactItem">
-                    <img src={Impact8} className="species" alt="logo" />
                     <p className="textBlack2">Species Extinction</p>
                 </div>
             </div>
