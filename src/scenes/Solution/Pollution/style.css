@@ -1,6 +1,6 @@
-.Emissions {
+.Pollution {
     text-align: center;
-    background: linear-gradient(#fff, #edffed);
+    background: linear-gradient(#fff, #3baf4e);
     color: #000;
     display: flex;
     flex-flow: row wrap;

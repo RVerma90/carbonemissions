@@ -12,34 +12,8 @@ class Pollution extends Component {
         return (
             <div className="Pollution">
                 <div>
-                    <Parallax
-                        offsetYMin="0px"
-                        offsetYMax="0px"
-                    >
-                        <p className="textBlack">Understanding where greenhouse gases come from is important.</p>
-                    </Parallax>   
-                    <Parallax
-                        offsetXMin="0px"
-                        offsetXMax="0px"
-                        offsetYMin="0px"
-                        offsetYMax="0px"
-                    >
-                    <img src={Whale} className="species" alt="logo" />
-                    </Parallax>                        
-                    <Parallax
-                        offsetXMin="0px"
-                        offsetXMax="0px"
-                        offsetYMin="0px"
-                        offsetYMax="0px"                        
-                    >
-                    <img src={Dolphine} className="species" alt="logo" />
-                    </Parallax>                                            
-                    <Parallax
-                        offsetYMin="0px"
-                        offsetYMax="0px"
-                    >
-                        <p className="textBlack">They come from activitities around agriculture, transportation,recycling and utilities.</p>
-                    </Parallax>  
+                    <p className="textBlack">Understanding where greenhouse gases come from is important.</p>
+                    <br/><p className="textBlack">They come from activitities around agriculture, transportation,recycling and utilities.</p>                
                 </div>                                       
             </div>
         );
