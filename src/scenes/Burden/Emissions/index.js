@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Whale from '../images/whale.png';
-import Dolphine from '../images/dolphine.png';
+import CO2 from '../images/co2.png';
+import Methane from '../images/methane.png';
 import BathySphere from '../../../components/BathySphere';
 
 import './style.css';
@@ -24,16 +24,24 @@ class Emissions extends Component {
                         offsetYMin="150px"
                         offsetYMax="-50px"
                     >
-                    <img src={Whale} className="species" alt="logo" />
+                    <img src={CO2} className="molecules" alt="logo" />
                     </Parallax>                        
                     <Parallax
-                        offsetXMin="200px"
-                        offsetXMax="-350px"
+                        offsetXMin="0px"
+                        offsetXMax="-150px"
                         offsetYMin="50px"
                         offsetYMax="150px"                        
                     >
-                    <img src={Dolphine} className="species" alt="logo" />
-                    </Parallax>                                            
+                    <img src={Methane} className="species" alt="logo" />
+                    </Parallax>
+                    <Parallax
+                        offsetXMin="100px"
+                        offsetXMax="-25px"
+                        offsetYMin="50px"
+                        offsetYMax="-80px"
+                    >
+                    <img src={CO2} className="molecules" alt="logo" />
+                    </Parallax>                                                                                                    
                     <Parallax
                         offsetYMin="400px"
                         offsetYMax="200px"

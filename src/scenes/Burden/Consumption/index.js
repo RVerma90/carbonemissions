@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Whale from '../images/whale.png';
-import Dolphine from '../images/dolphine.png';
-import BathySphere from '../../../components/BathySphere';
+import Lightbulb from '../images/lightbulb.png';
+import Lightbulbs from '../images/lightbulbs.png';
 
 import './style.css';
 
@@ -14,43 +14,33 @@ class Consumption extends Component {
                 <div>
                     <Parallax
                         offsetYMin="50px"
-                        offsetYMax="-50px"
+                        offsetYMax="-100px"
                     >
                         <p className="textBlack">An average person eats and burns about 1700 kcals a day,</p>
                     </Parallax>   
                     <Parallax
-                        offsetXMin="-150px"
-                        offsetXMax="50px"
                         offsetYMin="150px"
                         offsetYMax="-50px"
                     >
-                        <img src={Whale} className="species" alt="logo" />
-                    </Parallax>                        
+                        <img src={Lightbulb}/>
+                    </Parallax>                                                                 
                     <Parallax
-                        offsetXMin="200px"
-                        offsetXMax="-350px"
-                        offsetYMin="50px"
-                        offsetYMax="150px"                        
-                    >
-                        <img src={Dolphine} className="species" alt="logo" />
-                    </Parallax>                                            
-                    <Parallax
-                        offsetYMin="400px"
-                        offsetYMax="200px"
+                        offsetYMin="200px"
+                        offsetYMax="0px"
                     >
                         <p className="textBlack">which is enough to power a typical lightbulb.</p>
                     </Parallax>  
                     <Parallax
-                        offsetYMin="200px"
-                        offsetYMax="500px"
+                        offsetYMin="120px"
+                        offsetYMax="450px"
                     >
-                        <BathySphere></BathySphere>
-                    </Parallax>  
+                        <img src={Lightbulbs}/>
+                    </Parallax>                      
                     <Parallax
                         offsetYMin="400px"
                         offsetYMax="200px"
                     >
-                        <p className="textBlack">Our habits unfortunately rely on far more energy and resources.</p>
+                        <p className="textBlack">But our habits unfortunately rely on far more energy and resources.</p>
                     </Parallax>                       
                 </div>                                       
             </div>
