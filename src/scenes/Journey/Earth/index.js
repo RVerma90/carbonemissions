@@ -25,7 +25,7 @@ class Earth extends Component {
                         offsetYMin="-50px"
                         offsetYMax="100px"
                     >
-                        <p className="text">but our Planet Earth has been around for much longer.</p>
+                        <p className="text">but our Planet Earth has been around for much longer, relasing more harmful gases.</p>
                     </Parallax>  
                 </div>                     
             </div>

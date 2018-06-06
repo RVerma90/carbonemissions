@@ -40,7 +40,7 @@ class Consumption extends Component {
                         offsetYMin="400px"
                         offsetYMax="200px"
                     >
-                        <p className="textBlack">But our habits unfortunately rely on far more energy and resources.</p>
+                        <p className="textBlack">But our habits unfortunately rely on far more energy and resources, relasing more harmful gases.</p>
                     </Parallax>                       
                 </div>                                       
             </div>

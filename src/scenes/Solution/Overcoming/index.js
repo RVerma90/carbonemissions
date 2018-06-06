@@ -7,36 +7,36 @@ import './style.css';
 
 import { Parallax } from 'react-scroll-parallax';
 
-class Emissions extends Component {
+class Overcoming extends Component {
     render() {
         return (
-            <div className="Emissions">
+            <div className="Overcoming">
                 <div>
                     <Parallax
-                        offsetYMin="50px"
-                        offsetYMax="-50px"
+                        offsetYMin="0px"
+                        offsetYMax="0px"
                     >
-                        <p className="textBlack">Overcoming obstacles of mass consumption shouldn't have to be too difficult.</p>
+                        <p className="textBlack">Reducing our personal carbon footprint shouldn't have to be impossible.</p>
                     </Parallax>   
                     <Parallax
-                        offsetXMin="-150px"
-                        offsetXMax="50px"
-                        offsetYMin="150px"
-                        offsetYMax="-50px"
+                        offsetXMin="0px"
+                        offsetXMax="0px"
+                        offsetYMin="0px"
+                        offsetYMax="0px"
                     >
                     <img src={Whale} className="species" alt="logo" />
                     </Parallax>                        
                     <Parallax
-                        offsetXMin="200px"
-                        offsetXMax="-350px"
-                        offsetYMin="50px"
-                        offsetYMax="150px"                        
+                        offsetXMin="0px"
+                        offsetXMax="0px"
+                        offsetYMin="0px"
+                        offsetYMax="0px"                        
                     >
                     <img src={Dolphine} className="species" alt="logo" />
                     </Parallax>                                            
                     <Parallax
-                        offsetYMin="400px"
-                        offsetYMax="200px"
+                        offsetYMin="0px"
+                        offsetYMax="0px"
                     >
                         <p className="textBlack">The most important thing is to occasionally adjust our habits, gradually becoming better in the process.</p>
                     </Parallax>  
@@ -46,4 +46,4 @@ class Emissions extends Component {
   }
 }
 
-export default Emissions;
+export default Overcoming;
