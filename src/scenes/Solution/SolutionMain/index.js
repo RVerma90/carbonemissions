@@ -4,34 +4,31 @@ import './style.css';
 import {Animated} from "react-animated-css";
 import { Parallax } from 'react-scroll-parallax';
 
+// import Logo from '../images/logoimage.png';
+import Logo from '../images/earth_logo.png';
+
 class SolutionMain extends Component {
     render() {
         return (
-            <div className="SolutionMain">
+            <div className="JourneyMain">
                 <Animated animationIn="fadeInUp" animationOut="fadeOut" isVisible={true}>
                     <Parallax
-                        offsetYMin={100}
-                        offsetYMax={-150}
+                        offsetYMin="400px"
+                        offsetYMax="0px"
                     >
                         <h1 className="title">Upaay</h1>
                         <h2 className="subtitle">Solution</h2>
-                    </Parallax>   
-                </Animated>
-                <Animated animationIn="fadeIn" isVisible={true}>
+                    </Parallax> 
                     <Parallax
-                        offsetYMin={-150}
-                        offsetYMax={150}
+                        offsetYMin="200px"
+                        offsetYMax="200px"
                     >
+                        <img src={Logo} className="logoImage" alt="logo" />
                     </Parallax>  
-                    <Parallax
-                        offsetYMin={40}
-                        offsetYMax={-20}
-                    >
-                    </Parallax>              
                 </Animated>    
             </div>
         );
-  }
+    }
 }
 
 export default SolutionMain;

@@ -1,8 +1,9 @@
 .Consumption {
     text-align: center;
-    background: -moz-linear-gradient(top, #edffed 40%, #fffed3 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #edffed 40%,#fffed3 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #edffed 40%,#fffed3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(top, #F7AB6A 5%, #FAE9A3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #F7AB6A 5%,#FAE9A3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #F7AB6A 5%,#FAE9A3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(to bottom, #F7AB6A,#FAE9A3);
     color: #000;
     display: flex;
     flex-flow: row wrap;

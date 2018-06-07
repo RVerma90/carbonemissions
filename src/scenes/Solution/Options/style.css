@@ -1,6 +1,6 @@
 .Options {
     text-align: center;
-    background: linear-gradient(#3baf4e, #1688bb);
+    background: linear-gradient(#38b2f7, #1688bb);
     color: #000;
     display: flex;
     flex-flow: row wrap;
@@ -12,6 +12,13 @@
   font-size: 1.0em;
   font-family: 'Yatra One', cursive;
 }
+
+.imageSmall {
+	padding: 10px;
+	margin-top: 50px;
+	height: 50px;	
+}
+
 
 /* entire container, keeps perspective */
 .flip-container {

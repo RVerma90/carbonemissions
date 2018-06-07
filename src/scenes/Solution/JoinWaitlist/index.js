@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import './style.css';
 
-import { Parallax } from 'react-scroll-parallax';
-
 class JoinWaitlist extends Component {
     render() {
         return (

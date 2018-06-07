@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import CO2 from '../images/co2.png';
 import Methane from '../images/methane.png';
-import BathySphere from '../../../components/BathySphere';
 
 import './style.css';
 
@@ -43,8 +42,8 @@ class Emissions extends Component {
                     <img src={CO2} className="molecules" alt="logo" />
                     </Parallax>                                                                                                    
                     <Parallax
-                        offsetYMin="400px"
-                        offsetYMax="200px"
+                        offsetYMin="200px"
+                        offsetYMax="0px"
                     >
                         <p className="textBlack">This causes many adverse impacts on our planet.</p>
                     </Parallax>  

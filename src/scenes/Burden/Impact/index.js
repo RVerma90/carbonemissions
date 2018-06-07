@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Whale from '../images/whale.png';
 import Impact1 from '../images/tornado.png';
 import Impact2 from '../images/heatwaves.png';
 import Impact3 from '../images/drought.png';
@@ -40,7 +39,7 @@ class Impact extends Component {
                 </div>
                 <div className="impactItem">
                     <img src={Impact6} className="species" alt="logo" />
-                    <p className="textBlack2">Diease</p>
+                    <p className="textBlack2">Disease</p>
                 </div>                                
                 <div className="impactItem">
                     <img src={Impact7} className="species" alt="logo" />
