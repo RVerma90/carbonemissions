@@ -11,10 +11,13 @@ import Eggplant from '../images/Food_eggplant.png';
 import Fish from '../images/Food_fish.png';
 import FruitVeg from '../images/Food_fruitveg.png';
 import Ham from '../images/Food_ham.png';
+import Meat from '../images/Pollution_meat.png';
 import Onion from '../images/Food_onion.png';
 
 import Bike from '../images/Transport_bike.png';
 import Train from '../images/Transport_train.png';
+import Plane from '../images/Transport_plane.png';
+import Car from '../images/Pollution_carparked.png';
 import Van from '../images/Transport_van.png';
 
 import RecycledBag from '../images/Recycle_recycledbag.png';
@@ -37,103 +40,89 @@ import { Parallax } from 'react-scroll-parallax';
 class Options extends Component {
     render() {
         return (
-            <div className="Options">                                    
-                <div className="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div className="flipper">
-                        <div className="front">
-                            <p className="textBlack">Agriculture</p>
-                            <div>
-                                <img src={Farm} className="imageSmall" alt="logo" />
-                                <p className="textBlack2">Extreme Weather</p>
-                            </div>
-                            <div>
-                                <img src={Barn} className="imageSmall" alt="logo" />
-                                <p className="textBlack2">Extreme Weather</p>
-                            </div>                            
-                            <div>
-                                <img src={Rake} className="imageSmall" alt="logo" />
-                                <p className="textBlack2">Extreme Weather</p>
-                            </div>                                                        
-                        </div>
-                        <div class="back">
-                            back content
-                        </div>
-                    </div>
+            <div className="Options">
+                <div>
+                    <img src={Meat} className="meatImage" alt="logo" />
                 </div>  
-                <div className="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div className="flipper">
-                        <div className="front">
-                            <p className="textBlack">Transportation</p>
-                            <div>
-                                <img src={Train} className="imageSmall" alt="logo" />
-                                <p className="textBlack2">Extreme Weather</p>
-                            </div>
-                            <div>
-                                <img src={Van} className="imageSmall" alt="logo" />
-                                <p className="textBlack2">Extreme Weather</p>
-                            </div>  
-                            <div>
-                                <img src={Bike} className="imageSmall" alt="logo" />
-                                <p className="textBlack2">Extreme Weather</p>
-                            </div>                                                                                     
-                        </div>
-                        <div class="back">
-                            back content
-                        </div>
-                    </div>
+                <div>
+                    <img src={Chicken} className="pollutionImage" alt="logo" />
                 </div>  
-                <div className="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div className="flipper">
-                        <div className="front">
-                            <p className="textBlack">Recycling</p>                    
-                            <div>
-                                <img src={RecycledBag} className="imageSmall" alt="logo" />
-                                <p className="textBlack2">Extreme Weather</p>
-                            </div>
-                            <div>
-                                <img src={RecycledBins} className="imageSmall" alt="logo" />
-                                <p className="textBlack2">Extreme Weather</p>
-                            </div>                    
-                            <div>
-                                <img src={WaterBottle} className="imageSmall" alt="logo" />
-                                <p className="textBlack2">Extreme Weather</p>
-                            </div>                                                         
-                        </div>
-                        <div class="back">
-                            back content
-                        </div>
-                    </div>
+                <div className="impactItem">
+                    <img src={Fish} className="pollutionImage" alt="logo" />
                 </div>  
-                <div className="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div className="flipper">
-                        <div className="front">
-                            <p className="textBlack">Utilities</p>                            
-                            <div>
-                                <img src={Nuclear} className="imageSmall" alt="logo" />
-                                <p className="textBlack2">Extreme Weather</p>
-                            </div>
-                            <div>
-                                <img src={Solar} className="imageSmall" alt="logo" />
-                                <p className="textBlack2">Extreme Weather</p>
-                            </div>                    
-                            <div>
-                                <img src={Wind} className="imageSmall" alt="logo" />
-                                <p className="textBlack2">Extreme Weather</p>
-                            </div>                                
-                            <div>
-                                <img src={Electricity} className="imageSmall" alt="logo" />
-                                <p className="textBlack2">Extreme Weather</p>
-                            </div>          
-                            <div>
-                                <img src={GasStove} className="imageSmall" alt="logo" />
-                                <p className="textBlack2">Extreme Weather</p>
-                            </div>                                                                  
-                        </div>
-                        <div class="back">
-                            back content
-                        </div>
-                    </div>
+                <div className="impactItem">
+                    <img src={Coal2} className="pollutionImage" alt="logo" />
                 </div>  
+                <div className="impactItem">
+                    <img src={Van} className="pollutionImage" alt="logo" />
+                </div>   
+                <div>
+                    <img src={Car} className="meatImage" alt="logo" />
+                </div>  
+                <div>
+
+                    <Parallax className="pollutionParallax"
+                        offsetXMin={-10}
+                        offsetXMax={-10}
+                    >
+                        <img src={Nuclear} className="pollutionImage" alt="logo" />
+                    </Parallax>
+                    <Parallax className="pollutionParallax"
+                        offsetXMin={-10}
+                        offsetXMax={-10}
+                    >
+                        <img src={Solar} className="pollutionImage" alt="logo" />
+                    </Parallax>
+                    <Parallax className="pollutionParallax"
+                        offsetXMin={-10}
+                        offsetXMax={-10}
+                    >
+                        <img src={Wind} className="pollutionImage" alt="logo" />
+                    </Parallax> 
+                    <Parallax className="pollutionParallax"
+                        offsetXMin={-10}
+                        offsetXMax={-10}
+                    >
+                        <img src={FruitVeg} className="pollutionImage" alt="logo" />
+                    </Parallax>
+                    <Parallax className="pollutionParallax"
+                        offsetXMin={-10}
+                        offsetXMax={-10}
+                    >
+                        <img src={Bike} className="pollutionImage" alt="logo" />
+                    </Parallax>
+                    <Parallax className="pollutionParallax"
+                        offsetXMin={-10}
+                        offsetXMax={-10}
+                    >
+                        <img src={Rake} className="pollutionImage" alt="logo" />
+                    </Parallax>  
+                    <Parallax className="pollutionParallax"
+                        offsetXMin={-10}
+                        offsetXMax={-10}
+                    >
+                        <img src={Farm} className="pollutionImage" alt="logo" />
+                    </Parallax>
+                    <Parallax className="pollutionParallax"
+                        offsetXMin={-10}
+                        offsetXMax={-10}
+                    >
+                        <img src={RecycledBag} className="pollutionImage" alt="logo" />
+                    </Parallax>                            
+                    <Parallax className="pollutionParallax"
+                        offsetXMin={-10}
+                        offsetXMax={-10}
+                    >
+                        <img src={RecycledBins} className="pollutionImage" alt="logo" />
+                    </Parallax>                                                                          
+                    <Parallax className="pollutionParallax"
+                        offsetYMin={-50}
+                        offsetYMax={-50}
+                    >
+                        <p className="textBlack">So that we can reduce our carbon footprints.</p>
+                    </Parallax>  
+                    
+                </div>                                      
             </div>
         );
   }

@@ -38,7 +38,6 @@ class Pollution extends Component {
                         offsetYMax={150}
                     >
                         <img src={GasTank} className="pollutionImage" alt="logo" />
-                        <img src={GasTank} className="pollutionImage" alt="logo" />
                         <img src={Truck} className="pollutionImage" alt="logo" />
                     </Parallax>
                     <Parallax className="pollutionParallax"
@@ -63,7 +62,6 @@ class Pollution extends Component {
                         offsetXMax={-150}                        
                     >
                         <img src={Train} className="pollutionImage" alt="logo" />
-                        <img src={Coal} className="pollutionImage" alt="logo" />
                         <img src={Coal} className="pollutionImage" alt="logo" />
                     </Parallax>
                     <Parallax className="pollutionParallax"
