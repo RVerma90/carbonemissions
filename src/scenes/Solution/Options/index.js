@@ -14,6 +14,8 @@ import Ham from '../images/Food_ham.png';
 import Meat from '../images/Pollution_meat.png';
 import Onion from '../images/Food_onion.png';
 
+import GasPump from '../images/Pollution_gaspump.png';
+
 import Bike from '../images/Transport_bike.png';
 import Train from '../images/Transport_train.png';
 import Plane from '../images/Transport_plane.png';
@@ -22,7 +24,8 @@ import Van from '../images/Transport_van.png';
 
 import RecycledBag from '../images/Recycle_recycledbag.png';
 import RecycledBins from '../images/Recycle_recyclebins.png';
-import WaterBottle from '../images/Recycle_waterbottle.png';
+import WaterBottle from '../images/Recycle_bottle.png';
+import Can from '../images/Recycle_can.png';
 
 import Bills from '../images/Utility_bills.png';
 import Electricity from '../images/Utility_electricity.png';
@@ -42,82 +45,45 @@ class Options extends Component {
         return (
             <div className="Options">
                 <div>
-                    <img src={Meat} className="meatImage" alt="logo" />
-                </div>  
-                <div>
-                    <img src={Chicken} className="pollutionImage" alt="logo" />
-                </div>  
-                <div className="impactItem">
-                    <img src={Fish} className="pollutionImage" alt="logo" />
-                </div>  
-                <div className="impactItem">
-                    <img src={Coal2} className="pollutionImage" alt="logo" />
-                </div>  
-                <div className="impactItem">
-                    <img src={Van} className="pollutionImage" alt="logo" />
-                </div>   
-                <div>
-                    <img src={Car} className="meatImage" alt="logo" />
-                </div>  
-                <div>
-
                     <Parallax className="pollutionParallax"
-                        offsetXMin={-10}
-                        offsetXMax={-10}
+                        offsetXMin={75}
+                        offsetXMax={-125}
+                        offsetYMin={-50}
+                        offsetYMax={-50}
+                    >
+                        <img src={Ham} className="meatImage" alt="logo" />
+                        <img src={Meat} className="meatImage" alt="logo" />
+                        <img src={Chicken} className="pollutionImage" alt="logo" />
+                        <img src={Fish} className="pollutionImage" alt="logo" />
+                        <img src={Coal2} className="pollutionImage" alt="logo" />
+                        <img src={GasPump} className="meatImage" alt="logo" />
+                        <img src={Van} className="pollutionImage" alt="logo" />
+                        <img src={Car} className="meatImage" alt="logo" />
+                        <img src={WaterBottle} className="meatImage" alt="logo" />
+                        <img src={Can} className="meatImage" alt="logo" />
+                    </Parallax>
+                    <Parallax className="pollutionParallax"
+                        offsetXMin={-75}
+                        offsetXMax={75}
+                        offsetYMin={0}
+                        offsetYMax={100}                        
                     >
                         <img src={Nuclear} className="pollutionImage" alt="logo" />
-                    </Parallax>
-                    <Parallax className="pollutionParallax"
-                        offsetXMin={-10}
-                        offsetXMax={-10}
-                    >
                         <img src={Solar} className="pollutionImage" alt="logo" />
-                    </Parallax>
-                    <Parallax className="pollutionParallax"
-                        offsetXMin={-10}
-                        offsetXMax={-10}
-                    >
                         <img src={Wind} className="pollutionImage" alt="logo" />
-                    </Parallax> 
-                    <Parallax className="pollutionParallax"
-                        offsetXMin={-10}
-                        offsetXMax={-10}
-                    >
-                        <img src={FruitVeg} className="pollutionImage" alt="logo" />
-                    </Parallax>
-                    <Parallax className="pollutionParallax"
-                        offsetXMin={-10}
-                        offsetXMax={-10}
-                    >
+                        <img src={Electricity} className="pollutionImage" alt="logo" /><img src={FruitVeg} className="pollutionImage" alt="logo" />
+                        <img src={Brocolli} className="pollutionImage" alt="logo" />
+                        <img src={Eggplant} className="pollutionImage" alt="logo" />
+                        
                         <img src={Bike} className="pollutionImage" alt="logo" />
-                    </Parallax>
-                    <Parallax className="pollutionParallax"
-                        offsetXMin={-10}
-                        offsetXMax={-10}
-                    >
                         <img src={Rake} className="pollutionImage" alt="logo" />
-                    </Parallax>  
-                    <Parallax className="pollutionParallax"
-                        offsetXMin={-10}
-                        offsetXMax={-10}
-                    >
                         <img src={Farm} className="pollutionImage" alt="logo" />
-                    </Parallax>
-                    <Parallax className="pollutionParallax"
-                        offsetXMin={-10}
-                        offsetXMax={-10}
-                    >
                         <img src={RecycledBag} className="pollutionImage" alt="logo" />
-                    </Parallax>                            
-                    <Parallax className="pollutionParallax"
-                        offsetXMin={-10}
-                        offsetXMax={-10}
-                    >
                         <img src={RecycledBins} className="pollutionImage" alt="logo" />
                     </Parallax>                                                                          
                     <Parallax className="pollutionParallax"
-                        offsetYMin={-50}
-                        offsetYMax={-50}
+                        offsetYMin={0}
+                        offsetYMax={100}
                     >
                         <p className="textBlack">So that we can reduce our carbon footprints.</p>
                     </Parallax>  

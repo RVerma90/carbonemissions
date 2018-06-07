@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 import './style.css';
 
-class Overcoming extends Component {
+class Word extends Component {
     render() {
         return (
-            <div className="Overcoming">
+            <div className="Word">
                 <div>
                     <p className="textBlack">It shouldn't have to be impossible.</p>
                     <br/>
@@ -16,4 +16,4 @@ class Overcoming extends Component {
   }
 }
 
-export default Overcoming;
+export default Word;

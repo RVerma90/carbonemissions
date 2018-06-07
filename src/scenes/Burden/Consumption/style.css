@@ -12,29 +12,10 @@
     height: 200vh;   
 }
 
-.subtitle {
-  font-size: 1.0em;
-  font-family: 'Yatra One', cursive;
-}
-
 .species {
   height: 15vh;
   vertical-align: -webkit-baseline-middle;
   margin-top: auto;
   margin-bottom: auto;
   z-index: 50;
-}
-
-.sunShine {
-  height: 20vh;
-  position: relative;
-  top: 35vh;
-}
-
-:local(.scroll) {
-  bottom: 5em;
-  left: 50%;
-  transform: translateX(-50%);
-  color: $plum;
-  font-weight: 500;
 }

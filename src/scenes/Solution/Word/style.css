@@ -1,10 +1,10 @@
-.Overcoming {
+.Word {
     text-align: center;
-    background: linear-gradient(#2172e3, #38b2f7);
+    background-color: white;
     color: #000;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 100vh;
 }

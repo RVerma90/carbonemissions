@@ -6,16 +6,3 @@
     justify-content: center;
     height: 100vh;    
 }
-
-.subtitle {
-  font-size: 1.0em;
-  font-family: 'Yatra One', cursive;
-}
-
-.spaceImage {
-  height: 25vh;
-  vertical-align: -webkit-baseline-middle;
-  margin-top: auto;
-  margin-bottom: auto;
-  z-index: 10000;
-}

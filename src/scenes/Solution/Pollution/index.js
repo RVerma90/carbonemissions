@@ -81,7 +81,7 @@ class Pollution extends Component {
                         offsetYMin={-50}
                         offsetYMax={-50}
                     >
-                        <p className="textBlack">So that we can reduce our carbon footprints.</p>
+                        <p className="textBlack">Anyone can make the choice to occasionally consume consciounsly.</p>
                     </Parallax>  
                 </div>
             </div>
