@@ -24,8 +24,10 @@ class Wolf extends Component {
                         offsetXMax="0"                        
                     >
                         <div className="theMoon"></div>
-                    </Parallax>                         
-                    <img src={WolfHowl} className="theWolf" alt="logo" />
+                    </Parallax>
+                    <div className="wolfMountainDiv">
+                        <img src={WolfHowl} className="theWolf" alt="logo" />
+                    </div>
                 </div>                                           
             </div>
         );
