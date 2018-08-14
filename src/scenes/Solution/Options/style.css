@@ -7,11 +7,21 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    height: 130vh;
+    height: 100vh;
+}
+
+.ecoChoices {
+width: 250px;
 }
 
 .imageSmall {
 	padding: 10px;
 	margin-top: 50px;
 	height: 50px;	
+}
+
+/* custom styling for smaller images */
+.addPadding {
+    height: 40px !important;
+    width: auto;
 }

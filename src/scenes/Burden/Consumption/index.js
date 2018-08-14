@@ -13,8 +13,8 @@ class Consumption extends Component {
                     <img src={Lightbulb} alt="lightbulb"/>
                     <p className="textBlack">which is enough to power a typical lightbulb.</p>
                         <br/><br/><br/>
-                    <img src={Lightbulbs} alt="lightbulb"/>
-                    <p className="textBlack">But our habits unfortunately rely on far more energy and resources, relasing more harmful gases.</p>                     
+                    <img src={Lightbulbs} className="lightbulbs" alt="lightbulbs"/>
+                    <p className="textBlack">But our habits unfortunately rely on far more energy and resources, releasing more harmful gases to our surroundings.</p>
                 </div>                                       
             </div>
         );

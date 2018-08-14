@@ -45,45 +45,46 @@ class Options extends Component {
         return (
             <div className="Options">
                 <div>
-                    <Parallax className="pollutionParallax"
-                        offsetXMin={75}
-                        offsetXMax={-125}
-                        offsetYMin={-50}
-                        offsetYMax={-50}
+                    <Parallax className="ecoChoices"
+                        offsetXMin={-25}
+                        offsetXMax={125}
+                        offsetYMin={0}
+                        offsetYMax={0}
                     >
-                        <img src={Ham} className="meatImage" alt="logo" />
-                        <img src={Meat} className="meatImage" alt="logo" />
-                        <img src={Chicken} className="pollutionImage" alt="logo" />
-                        <img src={Fish} className="pollutionImage" alt="logo" />
-                        <img src={Coal2} className="pollutionImage" alt="logo" />
-                        <img src={GasPump} className="meatImage" alt="logo" />
-                        <img src={Van} className="pollutionImage" alt="logo" />
-                        <img src={Car} className="meatImage" alt="logo" />
-                        <img src={WaterBottle} className="meatImage" alt="logo" />
-                        <img src={Can} className="meatImage" alt="logo" />
+                        <img src={Ham} className="meatImage addPadding" alt="logo" />
+                        <img src={Meat} className="meatImage addPadding" alt="logo" />
+                        <img src={Chicken} className="pollutionImage addPadding" alt="logo" />
+                        <img src={Fish} className="pollutionImage addPadding" alt="logo" />
+                        <img src={Coal2} className="pollutionImage addPadding" alt="logo" />
+                        <img src={GasPump} className="meatImage addPadding" alt="logo" />
+                        <img src={Van} className="pollutionImage addPadding" alt="logo" />
+                        <img src={Car} className="meatImage addPadding" alt="logo" />
+                        <img src={WaterBottle} className="meatImage addPadding" alt="logo" />
+                        <img src={Can} className="meatImage addPadding" alt="logo" />
                     </Parallax>
-                    <Parallax className="pollutionParallax"
-                        offsetXMin={-75}
-                        offsetXMax={75}
-                        offsetYMin={0}
-                        offsetYMax={100}                        
+                    <Parallax className="ecoChoices"
+                        offsetXMin={0}
+                        offsetXMax={0}
+                        offsetYMin={300}
+                        offsetYMax={-75}                        
                     >
-                        <img src={Nuclear} className="pollutionImage" alt="logo" />
-                        <img src={Solar} className="pollutionImage" alt="logo" />
-                        <img src={Wind} className="pollutionImage" alt="logo" />
-                        <img src={Electricity} className="pollutionImage" alt="logo" /><img src={FruitVeg} className="pollutionImage" alt="logo" />
-                        <img src={Brocolli} className="pollutionImage" alt="logo" />
-                        <img src={Eggplant} className="pollutionImage" alt="logo" />
+                        <img src={Nuclear} className="pollutionImage addPadding" alt="logo" />
+                        <img src={Solar} className="pollutionImage addPadding" alt="logo" />
+                        <img src={Wind} className="pollutionImage addPadding" alt="logo" />
+                        <img src={Electricity} className="pollutionImage addPadding" alt="logo" />
+                        <img src={FruitVeg} className="pollutionImage addPadding" alt="logo" />
+                        <img src={Brocolli} className="pollutionImage addPadding" alt="logo" />
+                        <img src={Eggplant} className="pollutionImage addPadding" alt="logo" />
                         
-                        <img src={Bike} className="pollutionImage" alt="logo" />
-                        <img src={Rake} className="pollutionImage" alt="logo" />
-                        <img src={Farm} className="pollutionImage" alt="logo" />
-                        <img src={RecycledBag} className="pollutionImage" alt="logo" />
-                        <img src={RecycledBins} className="pollutionImage" alt="logo" />
+                        <img src={Bike} className="pollutionImage addPadding" alt="logo" />
+                        <img src={Rake} className="pollutionImage addPadding" alt="logo" />
+                        <img src={Farm} className="pollutionImage addPadding" alt="logo" />
+                        <img src={RecycledBag} className="pollutionImage addPadding" alt="logo" />
+                        <img src={RecycledBins} className="pollutionImage addPadding" alt="logo" />
                     </Parallax>                                                                          
-                    <Parallax className="pollutionParallax"
-                        offsetYMin={0}
-                        offsetYMax={100}
+                    <Parallax className="ecoChoices"
+                        offsetYMin={900}
+                        offsetYMax={800}
                     >
                         <p className="textBlack">So that we can reduce our carbon footprints.</p>
                     </Parallax>  

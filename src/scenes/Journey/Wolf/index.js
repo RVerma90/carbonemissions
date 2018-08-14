@@ -15,7 +15,7 @@ class Wolf extends Component {
                         offsetXMin="0"
                         offsetXMax="0"                        
                     >
-                        <p className="textPaddingTop">Eventually a chemical process was able to replicate itself and life began.</p>
+                        <p className="text">Eventually a chemical process was able to replicate itself and life began.</p>
                     </Parallax>     
                     <Parallax
                         offsetYMin="-50"
