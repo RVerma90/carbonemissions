@@ -5,7 +5,7 @@ import {Animated} from "react-animated-css";
 import { Parallax } from 'react-scroll-parallax';
 
 // import Logo from '../images/logoimage.png';
-import Logo from '../images/earth_logo.png';
+import Logo from '../images/plant.png';
 
 class SolutionMain extends Component {
     render() {
